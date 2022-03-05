@@ -1,0 +1,55 @@
+Marks sheet with grades
+
+void main(){
+  
+  var name = "Name : Syed Moin Hussain";
+  print(name);
+  print("----------------------------marksheet---------------------------");
+  
+  int maths = 70;
+  print("Maths = $maths");
+  
+  int physics = 60;
+  print("physics = $physics");
+  
+  num chemistry = 70.5;
+  print("Chemistry = $chemistry");
+  
+  int english = 60;
+  print("English = $english");
+  
+  num urdu = 55.5;
+  print("Urdu = urdu");
+  
+  var total_marks = 500;
+  print("Total Marks = $total_marks");
+  
+  var obtained_marks = maths + physics + chemistry + english + urdu;
+  print ("Obtained Marks = $obtained_marks");
+  
+  var percentage = obtained_marks/total_marks*100;
+  print("Percentage = $percentage %");
+  
+  if (percentage >= 80){
+    print("Grade = A1-Grade");
+  }
+  
+  else if (percentage >= 70){
+    print("Grade = A-Grade");
+  }
+  
+   else if (percentage >= 60){
+    print("Grade = B-Grade");
+  }
+   else if (percentage >= 50){
+    print("Grade = C-Grade");
+  }
+   else if (percentage >= 40){
+    print("Grade = D-Grade");
+  }
+  
+  else{
+    print("Grade = Fail");
+  }
+  
+}
